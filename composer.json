@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "theprofessor/unit-conversion",
+    "description": "perform unit conversion in php",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "theprofessor",
+        "unit-conversion"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/theprofessor/unit-conversion",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Eyad Hamza",
+            "email": "EyadHamza0@outlook.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Theprofessor\\UnitConversion\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Theprofessor\\UnitConversion\\Tests\\": "tests"
         }
     },
     "scripts": {

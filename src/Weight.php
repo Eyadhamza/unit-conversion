@@ -12,11 +12,10 @@ class Weight
     }
     public function __construct(float $kilograms)
     {
-
         $this->kilograms = $kilograms;
     }
     public function toLbs() :float
     {
-        return $this->kilograms*2.204623;
+        return $this->kilograms * 2.204623;
     }
 }
